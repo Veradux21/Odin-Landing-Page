@@ -86,7 +86,7 @@ button, .call {
     border-radius: 5%;
 }
 
-button{
+.hero-container button{
     padding: 5px 15px 5px 15px;
 }
 
@@ -94,14 +94,75 @@ button{
 
 .body-container{
     display:flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .info-container{
     display:flex;
     flex-direction: column;
+    max-width: 150px;
 }
 
 .info-container img{
-    height:100px;
-    width: 100px;
+    height:150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 5%;
+}
+
+.info-container p {
+    text-align: center;
+}
+
+/*-------- Testimonial -------*/
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-items: center;
+    align-self: center;
+    padding: 15% 10% 15% 10%;
+}
+.testimonial p,.testimonial h3{
+    margin:0;
+}
+
+
+.testimonial p{
+    font-style: italic; 
+    font-weight: lighter; 
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.testimonial h3{
+    align-self: flex-end;
+}
+
+/*-------- Call to Action -------*/
+
+.call{
+    margin: 2% 10% 2% 10%;
+    padding:5% 10% 5% 10%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+.call-text *{
+    margin:0;
+}
+
+.call-text{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.call button{
+    border: #F9FAF8 solid 2px;
+    flex: 0 0 auto;
+    width: auto;
+    height: 26px;
+    margin:auto;
 }

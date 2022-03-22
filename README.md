@@ -1,10 +1,11 @@
 # Odin-Landing-Page
+[Link to Site](https://veradux21.github.io/Odin-Landing-Page/)
 
 ## Styling:
-##Colors and font styles:
+## Colors and font styles:
 
 
-##Image Reference:
+## Image Reference:
 Full Page Reference
 ![](./design-ref/odin-project.png)
 
