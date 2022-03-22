@@ -28,7 +28,8 @@ button, .call {
 
 .header {
     padding:15px;
-    justify-content: space-evenly;
+    justify-content: center;
+    padding: 8px 10% 8px 10%;
 }
 
 .title{
@@ -43,7 +44,6 @@ button, .call {
     margin-left:auto;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 8px;
 }
 
 .links a {
@@ -81,9 +81,11 @@ button, .call {
 }
 
 .hero img{
-    width:auto;
-    max-height:300px;
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
     border-radius: 5%;
+    flex: 0 1 auto;
 }
 
 .hero-container button{
@@ -96,6 +98,7 @@ button, .call {
     display:flex;
     justify-content: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .info-container{
@@ -162,7 +165,17 @@ button, .call {
 .call button{
     border: #F9FAF8 solid 2px;
     flex: 0 0 auto;
-    width: auto;
-    height: 26px;
-    margin:auto;
+    flex-grow: 0;
+    align-self: center;
+    /*width: auto;
+    height: 30px;
+    margin:18px;*/
+    padding: 5px 15px 5px 15px
+}
+
+/*-------- Footer -------*/
+
+.footer{
+    justify-content: center;
+    padding: 2%;
 }
